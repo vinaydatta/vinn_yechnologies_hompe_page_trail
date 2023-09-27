@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="home_style.css">
+    <title>Vinn Technologies</title>
+</head>
+
+<body>
+    <header>               
+            <div class="menu d_flex_row">
+                <a href="index.html" class="logo">
+                    <div class="logo_container d_flex_row logo_header">
+                        
+                        <div class="logo_name d_flex_column">
+                            <h2 style="color: #0f9ad6;">Vinn Technologies</h2>
+                        </div>
+                    </div>
+                </a>
+                <nav>
+                    <ul class="navbar d_flex_row">
+                        <li><a class="nav_about nav_li" href="about.html">About</a></li>
+                        <li><a class="nav_li" href="#">Program</a></li>
+                        <li><a class="nav_li" href="index.html">Courses</a></li>
+                        <li><a class="nav_li" href="index.html">Team</a></li>
+                        <li><a class="nav_li" href="#">FAQ</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="join_btn">Regiester</a>
+            </div>
+        </div>
+        <nav class="navbar_mobile_ver">
+            <div onclick="openMenu()" class="mobile_ver d_flex_column">
+                <div class="humgurger_menu"></div>
+                <div class="humgurger_menu"></div>
+                <div class="humgurger_menu"></div>
+            </div>
+            <ul class="navbar_mobile d_flex_column">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><img onclick="closeMenu()" src="./images/cancel.png" alt="close button"></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="headline">
+        <div class="headlines">
+            <h3 class="moto">"From Zero to Hero"</h3>
+            <h1 class="title title_hero_section"><span>Comprehensive solution for individuals</span>
+                <br><span>free course</span>
+            </h1>
+            <p class="informtion">A one-stop solution that provides a holistic approach to personal and professional development</p>
+            <h3 class="moto2">Start Your Learning Journey</h3>
+            <p class="credit">@ Web Course</p>
+        </div>
+    </section>
+    <section class="main_courses">
+        <div class="cards_container">
+            <div class="section_headline d_flex_column">
+                <h2 class="section_title">Our Product and Services</h2>
+                <hr>
+            </div>
+            <div class="card card1 d_flex_row">
+                <img class="course_icon" src="images\Vinn_knowledge.png" alt="html">
+                <h3 class="course_name">Vinn Knowledge</h3>
+                <p class="course_info">Vinn Knowledge is a comprehensive and user-friendly platform that provides learners with access to high-quality education around the world</p>
+            </div>
+            <div class="card card2 d_flex_row">
+                <img class="course_icon" src="images\vinn_test.png" alt="css">
+                <h3 class="course_name">Vinn Test</h3>
+                <p class="course_info">Vinn Test is to unleash your potential, unlock your success. Experience seamless assessment.</p>
+            </div>
+            <div class="card card3 d_flex_row">
+                <img class="course_icon" src="images\vinn_jobs.png" alt="javascript">
+                <h3 class="course_name">Vinn Jobs</h3>
+                <p class="course_info">Vinn Job platform play a pivotal role for organizations in keeping this lifeline steady. HR managers and recruiters post their requirements on the top job.</p>
+            </div>
+            <div class="card card4 d_flex_row">
+                <img class="course_icon" src="images\vinn_hrms.png" alt="react">
+                <h3 class="course_name">Vinn HRMS</h3>
+                <p class="course_info">Vinn HRMS will streamline your workforce management with precision and ease. From talent acquisition to performance evaluation</p>
+            </div>
+            
+            <a class="course_link" href="#">Join The Courses Now</a>
+        </div>
+    </section>
+    
+
+    <script src="mobileMenu.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>
